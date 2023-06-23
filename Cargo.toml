@@ -1,6 +1,10 @@
 [package]
 name = "derive_ops"
 version = "0.1.0"
+authors = ["RedRam"]
+description = "Derives for Add, Sub, Mul, Div, and assign variants"
+keywords = ["derive"]
+license = "MIT"
 edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
@@ -11,4 +15,4 @@ proc-macro = true
 [dependencies]
 syn = "1.0"
 quote = "1.0"
-proc-macro2 = "1.0.51"
+proc-macro2 = "1.0"

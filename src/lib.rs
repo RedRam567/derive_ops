@@ -1,3 +1,5 @@
+//! Small library to add derives for Add, Sub, Mul, Div, and assign variants
+
 mod utils;
 
 use proc_macro::TokenStream;
